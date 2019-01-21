@@ -8,12 +8,13 @@
 		<meta name="description" content="Website that describes Dillon Carns. Often used for prospective employers or testing web development.">
 		<meta name="author" content="Dillon Carns">
 		<link rel="stylesheet" href="css/style.css?v=1.0">
+		<script src="js/functions.js"></script>
 	</head>
 	<body>
 		<div class="navbar">
 			<a href="index.html">Home</a>
-			<a href="#about">About</a>
-			<a href="#contact">Contact</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
 		</div>
 		<h2>
 			Web site test.
@@ -21,7 +22,6 @@
 		
 		<!-- Add icon library -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 		<div class="card">
 			<img src="images/img.png" alt="DC">
 			<p class="title">Future Software Developer, MS Computer Science</p>
@@ -29,8 +29,10 @@
 				<a href="https://github.com/carnsds"><i class="fa fa-github"></i></a>
 				<a href="https://github.com/carnsds7"><i class="fa fa-github"></i></a>				
 				<a href="https://www.linkedin.com/in/dillon-carns-980018117/"><i class="fa fa-linkedin"></i></a> 
-			<p><button>Contact</button></p>
+			<p><button id="contact" onClick="emailMe()">Contact</button></p>
 		</div>
+		
+		<div id="email_form"></div>
 	</body>
 
 </html>
