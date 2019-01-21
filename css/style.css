@@ -112,3 +112,16 @@ button {
   display: table;
   clear: both;
 }
+
+label, input, textarea {
+	display:block;
+	padding: 10px;
+	margin: 5px auto auto auto;
+	
+}
+
+	
+.status {
+	font-size: 20px;
+	color: white;
+}
